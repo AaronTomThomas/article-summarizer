@@ -7,12 +7,12 @@ const Hero = () => {
     justify-center items-center flex-col">
         <nav className="flex justify-between 
         items-center w-full mb-10 pt-3">
-            <img src={logo} alt = "sumz_logo" 
+            <img src={logo} alt = "sumarizer_logo" 
             className="w-28 object-contain"/>
 
             <button
             type ="button"
-            onClick={() => window.open('https://github.com/AaronTomThomas/ai-api-webapp')}
+            onClick={() => window.open('https://github.com/AaronTomThomas/article-summarizer')}
             className = "black_btn">
                 Github
             </button>
@@ -20,14 +20,11 @@ const Hero = () => {
         </nav>
 
         <h1 className='head_text'>
-            Summarize articles with <br className='max-md:hidden'/>
-            <span className='orange_gradient'>OpenAI GPT-4</span>
+            Instant Article Summaries using <br className='max-md:hidden'/>
+            <span className='title_gradient'>OpenAI GPT-4</span>
         </h1>
         <h1 className='desc'>
-            Simplify your reading with Summize, an 
-            open-source article summarizer 
-            that transforms lengthy articles into 
-            clear and concise summaries
+        Unlock the Power of GPT-4: Get concise article summaries instantly with SummarizeSwift. Paste URLs, receive insights!
         </h1>
     </header>
   )

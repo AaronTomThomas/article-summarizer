@@ -108,12 +108,12 @@ const Demo = () => {
                 <img src = {loader} alt = "loader" className = "w-20 h-20 object-contain"/>
              ) : error ? (
                 <p className='font-inter font-bold text-black text-center'>
-                    Well that wasn't supposed to happen
-                    <br>
-                        <span className='font-satoshi font-normal text-gray-700'>
-                            {error?.data?.error}
-                        </span>
-                    </br>
+                    Well that wasnt supposed to happen
+             
+                    <span className='font-satoshi font-normal text-gray-700'>
+                        {error?.data?.error}
+                     </span>
+          
                 </p>
              ) : (
                 article.summary && (
