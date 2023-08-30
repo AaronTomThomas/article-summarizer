@@ -1,4 +1,4 @@
-### Article-Summarizer Full Stack Web Application
+## Article-Summarizer Full Stack Web Application
 
 SummarizeSwift is a dynamic web application built with ReactJS, designed to streamline your reading experience. Leveraging the power of AI and Redux, this app allows you to effortlessly extract concise summaries from websites.
 
